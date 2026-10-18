@@ -21,7 +21,7 @@ Deploy the contents of `dist/` to any static HTTP(S) host. Use a stable origin: 
 - Progress saves after every graded attempt. Export/import JSON backups and confirmed reset are in Settings.
 - Capitals count. Whitespace, accents and punctuation are optional under manual rule 9. Homophones are context clues, never automatically accepted alternatives.
 - Learning hints remain available; this is typed practice, not a full simulation of an oral competition.
-- Homophones automatically receive their source definition and sentence. On-screen learning hints mask target spellings.
+- Only the word autoplays for ordinary entries. Under rule 11, homophones automatically receive their source definition and sentence after the word. On-screen learning hints mask target spellings.
 - Statistics shows scheduled-review accuracy, word coverage, review intervals, missed words, recent sessions and 14-day activity. Accuracy excludes retries and extra practice; session history includes extra practice and retains the latest 100 finished sessions. Written definition/sentence hints are hidden by default and can be enabled below the practice help buttons.
 
 ## Source and data checks

@@ -23,7 +23,7 @@
 
 ## Audio and UI requirements
 - Ship the existing 1,200 Kokoro MP3s (word, definition, sentence per entry). The visitor's browser must not download or run a voice model, ONNX/WASM runtime or neural speech worker. Device TTS is an explicit optional setting, not a silent fallback.
-- Autoplay only the word for ordinary entries. For homophones, autoplay word, definition, then sentence. Stop/cancel sequences when interrupted, checking an answer, advancing or leaving practice.
+- Autoplay only the word for ordinary entries. Under rule 11, homophones autoplay word, definition, then sentence. Stop/cancel sequences when interrupted, checking an answer, advancing or leaving practice.
 - Show playback progress through the respective button's background, with stable labels and dimensions; do not insert “Playing…” text that shifts layout.
 - Hide written definition/sentence hints by default. Keep the saved “Show definition and sentence text” checkbox directly below the help buttons. Word type may still appear when requested.
 - Keep practice compact and calm: no “One word at a time” or “Listen. Then make it yours.” headings. Retain the large input with spellcheck, autocorrect and automatic capitalization disabled.
